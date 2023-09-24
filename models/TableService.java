@@ -88,11 +88,17 @@ public class TableService implements Model {
         return -1;
     }
 
+    /**
+     * Попытка работать с списком Резервов - фиаско
+     */
     public Collection<Reservation> reservations ;
 
 
-    /* Удаление резерва из списка резервов
-        idReserv - идентификатор резерва
+
+    /**
+     * Удаление резерва из списка резервов
+     * @param idReserv  - идентификатор резерва
+     * @return
      */
     public boolean delReservation (int idReserv){
 
